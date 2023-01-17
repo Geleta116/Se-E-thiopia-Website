@@ -1,0 +1,380 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+.body--color{
+    background-color: black;
+    color: white;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+}
+.nav-menu__item{
+    
+    list-style-type: none;
+    margin: 20px 10px;
+    text-decoration:none;
+    cursor: pointer;
+    display: inline-block;
+}
+
+
+.nav-menu__item--link{
+    color: black;
+    background-color: white;
+}
+
+.nav-menu__item--link:link{
+    margin-top:20px ;
+    margin: 20px 0px 10px 10px;
+    display: inline-block;
+    text-decoration: none;
+    color: black;
+
+}
+
+.header__logo{
+    width: 200px;
+    height: 105px;
+}
+
+.first-part--first{
+    background-size: cover;
+    height: 85vh;
+   
+    background-repeat: no-repeat;
+    background-image: url(../Image/bg1.jpg);
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+   
+}
+.first-part__text1--resize{
+    margin-top: 200px;
+    text-shadow: 1px 1px  rgba(255, 255, 255, 1);
+    margin: 0 auto;
+    font-size: 14vw;
+    color:rgb(0, 0, 0);
+}
+.first-part__text2--resize{
+     margin: 0 auto; 
+    padding: 0 40px; 
+    font-weight: 900;
+    text-shadow: 1px 1px  rgba(255, 255, 255, 1);
+    font-size: 3vw; 
+    color:black;
+ 
+}
+
+
+
+.flex--display{
+   
+    display: flex;
+    flex-direction: row-reverse;
+}
+
+ .flex__quotes_para {
+    
+    font-size:1.5vw ;
+    margin-left:30px;
+    
+}
+.iframe-1{
+    display: flex;
+    align-items: center;
+    margin: 0 auto;
+    padding-bottom: 30px;
+    width: 50vw;
+    z-index: -4;
+}
+.Quote-arrow__hidden{
+    width: 20px;
+    height: 20px;
+    margin: 20px auto;
+}
+.Quotes-wrapper--wrapper {
+    margin: 1rem;
+    
+    overflow:auto;
+    display: flex;
+    background-color: black;
+    max-height: 100vh;
+  }
+  .Quotes-container {
+   
+    width: 40vw;
+    background-color: black;
+    display: flex;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    overflow: scroll;
+    scroll-behavior: smooth;
+  }
+  .Quotes-image__img-1{
+    max-width: 100px;
+    max-height: 100px;
+  }
+
+  .Quote {
+    padding: 50px;
+    display: block;
+    width: 100%;
+    flex: 1 0 100%;
+    background-color: rgb(0, 0, 0);
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+  }
+
+  .Quotes-container {
+    scrollbar-width: none; 
+    -ms-overflow-style: none;
+}
+
+.Quotes-container::-webkit-scrollbar { 
+    width: 100%;
+   
+}
+.Quote-arrow {
+    
+    display: flex;
+    margin: auto;
+    height: 4rem;
+    /* background-color: white; */
+    border: none;
+    width: 2rem;
+    font-size: 3rem;
+    padding: 0;
+    cursor: pointer;
+    opacity: 0.5;
+    /* transition: opacity 100ms; */
+  }
+  .Quote-arrow:hover,
+  .Quote-arrow:focus {
+    opacity: 1;
+  }
+  
+  .Quote-arrow--prev {
+    left: 0;
+    padding-left: 0.25rem;
+    border-radius: 0 2rem 2rem 0;
+  }
+  .Quote-arrow--next {
+    right: 0;
+    padding-left: 0.75rem;
+    border-radius: 2rem 0 0 2rem;
+  }  
+
+  .flex--display{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    width: 500px;
+  }
+
+  
+
+.footer--footer{
+    display: flex;
+    justify-content: space-around;
+    border-radius: 10px;
+    border:2px double rgb(0, 0, 0);
+    padding-left: 50px;
+    padding-right: 50px;
+   
+    background-color: white;
+    color: black;
+  
+    
+}
+
+
+
+.footer__address{
+    font-size: 20px;
+}
+.footer__links__span{
+    font-size: 20px;
+}
+.footer_logo--width{
+    padding-top: 0px;
+    width: 200px;
+    height: 105px;
+}
+.footer__address{
+    margin-top: 10px;
+    font-size: 20px;
+}
+
+
+.footer__links{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.footer__links--linksss{
+  
+  width: 40px;
+  height: 40px;
+  padding: 5px;
+}
+.flex__quotes__head{
+        
+    text-align: center;
+    font-weight: 600px;
+    font-size: 20px;
+   }
+@media(max-width: 1280px){
+    
+    
+    .header__humberger{
+        display: block;
+        cursor: pointer;
+        margin: 30px;
+    }
+
+    
+    .header__humberger__bar{
+     display: block;
+     width: 25px;
+     height: 3px;
+     margin: 5px auto;
+     transition: all 0.3s ease-in-out;
+     background-color: rgb(0, 0, 0);
+    }
+    
+ 
+    .header{
+        position: sticky;
+        top: 0;
+        background-color: white;
+    }
+    .nav-menu{
+        position: fixed;
+        left: -100%;
+        top: 70px;
+        gap: 0;
+        display: flex;
+        flex-direction: column;
+        background-color: rgb(255, 255, 255);
+        width: 100%;
+       
+        text-align: center;
+        transition: 0.3s;
+        z-index: 3;
+
+    }
+    .active{
+        left:0;
+    }
+
+    .nav-menu__item{
+        margin: 0;
+        border: 2px solid white;
+        
+    }
+    .nav-menu__item__link{
+        margin:  0;
+        color:rgb(0, 0, 0);
+        
+    }
+    .nav-menu__item--link:link{
+        margin: 0;
+    }
+    .footer--footer{
+        display: flex;
+        flex-direction: column;
+        text-align: center;
+        border-radius: 10px;
+        border:2px double rgb(0, 0, 0);
+        padding-left: 30px;
+        padding-right: 30px;
+       
+        
+      
+        
+    }
+    
+   
+    
+    .address{
+        font-size: 10px;
+    }
+    .content-3__div1--sec{
+        margin: 0 auto;
+    }
+   .footer__links__span{
+        font-size: 20px;
+    }
+    .footer__logo--width{
+        padding-top: 0px;
+        padding: 0;
+        margin: 0;
+        width: 140px;
+        height: 140px;
+    }
+    .footer__address{
+        margin-top: 10px;
+        font-size: 20px;
+    }
+    .footer__links{
+      display: flex;
+      flex-direction: column;
+  }
+
+
+
+    .flex--display{
+        flex-direction: column;
+        justify-content: center;
+       }
+    .flex__quotes_para{
+      font-size: 1.5vw;
+      margin-bottom: 30px;
+    }
+    .Quote-arrow{
+        display: none;
+    }
+    .Quotes-wrapper--wrapper{
+        height: 100vh;
+        /* max-height: 100vh; */
+       display: flex;
+       justify-content: center;
+       z-index: -1;
+       
+    }
+    .Quotes-container{
+        margin-top: 10px;
+        display: flex;
+        flex-direction: column;
+    }
+    .Quote{
+        margin-top:10px ;
+        padding:initial;
+        display: flex;
+        justify-content: center;
+    }
+
+       .flex__quotes__head{
+        font-size: 3.5vw;
+        text-align: center;
+        font-weight: 400px;
+       }
+
+    .Quotes-image__img-1{
+        max-width: 100px;
+        /* margin-left: 50px; */
+        max-height: 200px;
+        align-items: center;
+      }
+    .Quotes_image--center{
+        display: flex;
+        justify-content: center;
+    }
+    
+}
+
