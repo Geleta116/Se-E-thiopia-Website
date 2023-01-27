@@ -6,3 +6,6 @@ This is the repositoray I will use to submit my website development course assig
 I used Bootstrap as a frontend Framework for this branch. 
 
 I have also fixed the link problem involved with the video in the previous page that I uploaded.
+
+
+I have also given justification for using css for background image purposes on the css files
