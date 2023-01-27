@@ -1,0 +1,28 @@
+.sites--sa{
+      background-image: url("../Image/lalibela1.jpg");
+      background-size: cover;
+      
+}
+
+.sites--sb{
+      background-image: url("../Image/axum1.jpg");
+      background-size: cover;
+     
+}
+
+
+.sites--sc{
+      background-image: url("../Image/jima1.jpg");
+      background-size: cover;
+      
+}
+
+
+/* 
+#############################  VALIDATION FOR USING THIS CSS ######################################
+
+I only used the CSS for setting background interms of viewport because as far as 
+I gave searched to my knowledge I couldn't Find such features in bootstrap.
+
+###################################################################################################
+*/

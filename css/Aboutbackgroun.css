@@ -1,0 +1,17 @@
+.about{
+      background-image: url('../Image/CBE.jpg');
+      background-size: cover;
+      
+}
+
+
+
+/* 
+#############################  VALIDATION FOR USING THIS CSS ######################################
+
+I only used the CSS for setting background  interms of viewport because as far as 
+I gave searched to my knowledge I couldn't Find such features in bootstrap.
+
+
+#####################################################################################################
+*/

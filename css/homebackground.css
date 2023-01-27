@@ -1,0 +1,14 @@
+.Ethiopia{
+      background-image: url("../Image/bg1.jpg");
+      background-size: cover;
+      height: 85vh;
+}
+
+/* 
+#############################  VALIDATION FOR USING THIS CSS ######################################
+
+I only used the CSS for setting background and defining height interms of viewport because as far as 
+I gave searched to my knowledge I couldn't Find such features in bootstrap.
+
+####################################################################################################
+*/
